@@ -82,23 +82,23 @@ function verificarCEP() {
 const produtos = [
     {
         nome: "Tablete Dreams Mil-Folhas 130g",
-        img: "resources/chocolate (3).webp",
+        img: "resources/chocolate3.webp",
         link: "dreams.html"
     },
     {
         nome: "Tablete Dreams Mil-Folhas Avelã 130g",
-        img: "resources/chocolate (2).webp",
+        img: "resources/chocolate2.webp",
         link: "dreamsavelã.html"
     },
     {
         nome: "Tablete LaNut Gianduia 100g",
-        img: "resources/chocolate (1).webp",
+        img: "resources/chocolate1.webp",
         link: "lanut.html"
     },
 
     {
         nome: "Tablete LaCreme ao Leite 100g",
-        img: "resources/chocolate (4).webp",
+        img: "resources/chocolate4.webp",
         link: "lanut.html"
     },
     
@@ -128,73 +128,73 @@ const produtos = [
 
     {
         nome: "Caixa Bombons Gourmet Sortidos",
-        img: "resources/presentes (1).webp",
+        img: "resources/presentes1.webp",
         link: "lacreme.html"
     },
 
     {
         nome: "Cesta Chocomonstros do Monstrinho Adamastor",
-        img: "resources/presentes (2).webp",
+        img: "resources/presentes2.webp",
         link: "lacreme.html"
     },
 
     {
         nome: "Caneca Vermelha de Natal de 300ml",
-        img: "resources/presentes (3).webp",
+        img: "resources/presentes3.webp",
         link: "lacreme.html"
     },
 
     {
         nome: "Caneca Verde de Natal de 300ml",
-        img: "resources/presentes (4).webp",
+        img: "resources/presentes4.webp",
         link: "lacreme.html"
     },
 
     {
         nome: "Wafer Biscoiteria Mil-Folhas",
-        img: "resources/biscoito (1).webp",
+        img: "resources/biscoito1.webp",
         link: "lacreme.html"
     },
 
     {
         nome: "Wafer Biscoiteria Limão Siciliano",
-        img: "resources/biscoito (2).webp",
+        img: "resources/biscoito2.webp",
         link: "lacreme.html"
     },
 
     {
         nome: "Wafer Biscoiteria Cappuccino",
-        img: "resources/biscoito (3).webp",
+        img: "resources/biscoito3.webp",
         link: "lacreme.html"
     },
 
     {
         nome: "Wafer Biscoiteria Pistache",
-        img: "resources/biscoito (4).webp",
+        img: "resources/biscoito4.webp",
         link: "lacreme.html"
     },
     
     {
         nome: "Copo Viagem Calda Cacau Show",
-        img: "resources/garrafa (1).webp",
+        img: "resources/garrafa1.webp",
         link: "lacreme.html"
     },
 
     {
         nome: "Garrafa Termica Marrom Cacau Show",
-        img: "resources/garrafa (2).webp",
+        img: "resources/garrafa2.webp",
         link: "lacreme.html"
     },
 
     {
         nome: "Garrafa Termica Bege Cacau Show",
-        img: "resources/garrafa (3).webp",
+        img: "resources/garrafa3.webp",
         link: "lacreme.html"
     },
 
     {
         nome: "Garrafa Termica Verde Cacau Show",
-        img: "resources/garrafa (4).webp",
+        img: "resources/garrafa4.webp",
         link: "lacreme.html"
     },
     

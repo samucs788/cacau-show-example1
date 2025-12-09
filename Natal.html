@@ -1,112 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cacau Show</title>
-    <link rel="stylesheet" href="style.css"> 
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cacau Show</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
-  <main div class="topbar">
+
+<main>
+
+  <div class="topbar">
+
     <div class="topbar-top">
-        <a href="#">Seja um Revendedor</a>
-        <a href="#">Seja um Franqueado</a>
-        <a href="#">Área Para Empresas</a>
-        <a href="#">Trabalhe Conosco</a>
-        <a href="#">Nossos Hotéis</a>
-        <a href="#">Cacau Park</a>
-        <a href="#">Grupo Playcenter</a>
+      <a href="#">Seja um Revendedor</a>
+      <a href="#">Seja um Franqueado</a>
+      <a href="#">Área Para Empresas</a>
+      <a href="#">Trabalhe Conosco</a>
+      <a href="#">Nossos Hotéis</a>
+      <a href="#">Cacau Park</a>
+      <a href="#">Grupo Playcenter</a>
     </div>
+
     <div class="topbar-middle">
+      <a href="index.html">
+        <img src="./resources/logo.png" class="logo" alt="Logo">
+      </a>
 
-    <!-- LOGO QUE REDIRECIONA PARA index.html -->
-    <a href="index.html">
-        <img src="resources/logo.png" class="logo">
-    </a>
+      <div class="search-container">
+        <input id="searchBar" type="search" placeholder="Buscar Produto">
+        <div id="searchResults" class="results"></div>
+      </div>
 
-    <div class="search-container">
-    <input id="searchBar" type="search" placeholder="Buscar Produto">
-    <div id="searchResults" class="results"></div>
-</div>
-
-
-    <div class="cep-container">
+      <div class="cep-container">
         <input type="text" id="cepInput" placeholder="CEP">
         <button class="cep-btn" onclick="verificarCEP()">
-            <i class='bx bx-map'></i>
+          <i class='bx bx-map'></i>
         </button>
-    </div>
+      </div>
 
-    <button type="submit" class="login">
+      <button type="submit" class="login">
         <i class='bx bx-user'></i>
         Entrar
-    </button>
-</div>
-    <div class="topbar-bottom">
-        <a href="chocolate.html">Chocolate</a>
-        <a href="biscoito.html">Biscoito</a>
-        <a href="cesta.html">Presentes</a>
-        <a href="Natal.html">Natal</a>
-        <a href="life.html">Lifestyle</a>
-        <button type="button" class="cl">
-          <i class="bx bx-heart"></i>
-          Cacau Lovers
-        </button>
+      </button>
     </div>
-    <div class="centro">
-        <div class="product-list">
-            <div class="produtos">
-        <div class="pi">
-            <img src="resources/laCreme.png">
-            <i class="bx bx-heart"></i>
-        </div>
-        <a href="#">Panetone laCreme ao Leite 650g</a>
 
-        <div class="preços">
-            <span class="normal">R$ 96,99</span>
-            <span class="lovers">R$ 89,99</span>
-        </div>
-         <button class="add-cart">Adicionar ao Carrinho</button>
-    </div>    
+    <div class="topbar-bottom">
+      <a href="chocolate.html">Chocolate</a>
+      <a href="biscoito.html">Biscoito</a>
+      <a href="cesta.html">Presentes</a>
+      <a href="Natal.html">Natal</a>
+      <a href="life.html">Lifestyle</a>
 
-    <div class="produtos">
-        <div class="pi">
-            <img src="resources/gotas.png">
-            <i class="bx bx-heart"></i>
-        </div>
-        <a href="#">Panetone Gotas ao Leite<br>450g</a>
+      <button type="button" class="cl">
+        <i class="bx bx-heart"></i>
+        Cacau Lovers
+      </button>
+    </div>
 
-        <div class="preços">
-            <span class="normal">R$ 47,99</span>
-            <span class="lovers">R$ 44,99</span>
-        </div>
-         <button class="add-cart">Adicionar ao Carrinho</button>
-    </div>    
+  </div>
+<div class="centro">
+  <div class="product-list">
 
     <div class="produtos">
-        <div class="pi">
-            <img src="resources/trufado.png">
-            <i class="bx bx-heart"></i>
-        </div>
-        <a href="#">Panetone Trufado ao Leite 420g</a>
+      <div class="pi">
+        <img src="./resources/laCreme.png" alt="Panetone laCreme">
+        <i class="bx bx-heart"></i>
+      </div>
+      <a href="#">Panetone laCreme ao Leite 650g</a>
 
-        <div class="preços">
-            <span class="normal">R$ 64,99</span>
-            <span class="lovers">R$ 59,99</span>
-        </div>
-         <button class="add-cart">Adicionar ao Carrinho</button>
-    </div>  
-    
+      <div class="preços">
+        <span class="normal">R$ 96,99</span>
+        <span class="lovers">R$ 89,99</span>
+      </div>
+
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+
     <div class="produtos">
-        <div class="pi">
-            <img src="resources/brigadeiro.png">
-            <i class="bx bx-heart"></i>
-        </div>
-        <a href="#">Panetone com Recheio de Brigadeiro 580g</a>
+      <div class="pi">
+        <img src="./resources/gotas.png" alt="Panetone Gotas">
+        <i class="bx bx-heart"></i>
+      </div>
+      <a href="#">Panetone Gotas ao Leite<br>450g</a>
 
-        <div class="preços">
-            <span class="normal">R$ 86,99</span>
-            <span class="lovers">R$ 79,99</span>
-        </div>
-         <button class="add-cart">Adicionar ao Carrinho</button>
+      <div class="preços">
+        <span class="normal">R$ 47,99</span>
+        <span class="lovers">R$ 44,99</span>
+      </div>
+
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produtos">
+      <div class="pi">
+        <img src="./resources/trufado.png" alt="Panetone Trufado">
+        <i class="bx bx-heart"></i>
+      </div>
+      <a href="#">Panetone Trufado ao Leite 420g</a>
+
+      <div class="preços">
+        <span class="normal">R$ 64,99</span>
+        <span class="lovers">R$ 59,99</span>
+      </div>
+
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produtos">
+      <div class="pi">
+        <img src="./resources/brigadeiro.png" alt="Panetone Brigadeiro">
+        <i class="bx bx-heart"></i>
+      </div>
+      <a href="#">Panetone com Recheio de Brigadeiro 580g</a>
+
+      <div class="preços">
+        <span class="normal">R$ 86,99</span>
+        <span class="lovers">R$ 79,99</span>
+      </div>
+
+      <button class="add-cart">Adicionar ao Carrinho</button>
+    </div>
+
+  </div>
+</div>

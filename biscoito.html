@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,9 @@
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
-  <main div class="topbar">
+
+<div class="topbar">
+
     <div class="topbar-top">
         <a href="#">Seja um Revendedor</a>
         <a href="#">Seja um Franqueado</a>
@@ -18,31 +20,29 @@
         <a href="#">Cacau Park</a>
         <a href="#">Grupo Playcenter</a>
     </div>
+
     <div class="topbar-middle">
+        <a href="index.html">
+            <img src="./resources/logo.png" class="logo">
+        </a>
 
-    <!-- LOGO QUE REDIRECIONA PARA index.html -->
-    <a href="index.html">
-        <img src="resources/logo.png" class="logo">
-    </a>
+        <div class="search-container">
+            <input id="searchBar" type="search" placeholder="Buscar Produto">
+            <div id="searchResults" class="results"></div>
+        </div>
 
-    <div class="search-container">
-    <input id="searchBar" type="search" placeholder="Buscar Produto">
-    <div id="searchResults" class="results"></div>
-</div>
+        <div class="cep-container">
+            <input type="text" id="cepInput" placeholder="CEP">
+            <button class="cep-btn">
+                <i class="bx bx-map"></i>
+            </button>
+        </div>
 
-
-    <div class="cep-container">
-        <input type="text" id="cepInput" placeholder="CEP">
-        <button class="cep-btn" onclick="verificarCEP()">
-            <i class='bx bx-map'></i>
+        <button type="button" class="login">
+            <i class="bx bx-user"></i> Entrar
         </button>
     </div>
 
-    <button type="submit" class="login">
-        <i class='bx bx-user'></i>
-        Entrar
-    </button>
-</div>
     <div class="topbar-bottom">
         <a href="chocolate.html">Chocolate</a>
         <a href="biscoito.html">Biscoito</a>
@@ -50,63 +50,70 @@
         <a href="Natal.html">Natal</a>
         <a href="life.html">Lifestyle</a>
         <button type="button" class="cl">
-          <i class="bx bx-heart"></i>
-          Cacau Lovers
+            <i class="bx bx-heart"></i> Cacau Lovers
         </button>
     </div>
-    <div class="centro">
-        <div class="product-list">
-            <div class="produtos">
-        <div class="pi">
-            <img src="resources/biscoito (1).webp">
-            <i class="bx bx-heart"></i>
-        </div>
-        <a href="#">Wafer Biscoiteria<br> Mil Folhas</a>
 
-        <div class="preços">
-            <span class="normal">R$ 16,99</span>
-            <span class="lovers">R$ 15,99</span>
-        </div>
-         <button class="add-cart">Adicionar ao Carrinho</button>
-    </div>    
+</div>
 
-    <div class="produtos">
-        <div class="pi">
-            <img src="resources/biscoito (2).webp">
-            <i class="bx bx-heart"></i>
-        </div>
-        <a href="#">Wafer Biscoiteria Limão Siciliano</a>
+<!-- PRODUTOS -->
+<div class="centro">
+    <div class="product-list">
 
-        <div class="preços">
-            <span class="normal">R$ 16,99</span>
-            <span class="lovers">R$ 15,99</span>
+        <div class="produtos">
+            <div class="pi">
+                <img src="./resources/biscoito1.webp" alt="Biscoito 1">
+                <i class="bx bx-heart"></i>
+            </div>
+            <a href="#">Wafer Biscoiteria Mil Folhas</a>
+            <div class="preços">
+                <span class="normal">R$ 16,99</span>
+                <span class="lovers">R$ 15,99</span>
+            </div>
+            <button class="add-cart">Adicionar ao Carrinho</button>
         </div>
-         <button class="add-cart">Adicionar ao Carrinho</button>
-    </div>    
 
-    <div class="produtos">
-        <div class="pi">
-            <img src="resources/biscoito (3).webp">
-            <i class="bx bx-heart"></i>
+        <div class="produtos">
+            <div class="pi">
+                <img src="./resources/biscoito2.webp" alt="Biscoito 2">
+                <i class="bx bx-heart"></i>
+            </div>
+            <a href="#">Wafer Biscoiteria Limão Siciliano</a>
+            <div class="preços">
+                <span class="normal">R$ 16,99</span>
+                <span class="lovers">R$ 15,99</span>
+            </div>
+            <button class="add-cart">Adicionar ao Carrinho</button>
         </div>
-        <a href="#">Wafer Biscoiteria<br> Cappuccino</a>
 
-        <div class="preços">
-            <span class="normal">R$ 16,99</span>
-            <span class="lovers">R$ 15,99</span>
+        <div class="produtos">
+            <div class="pi">
+                <img src="./resources/biscoito3.webp" alt="Biscoito 3">
+                <i class="bx bx-heart"></i>
+            </div>
+            <a href="#">Wafer Biscoiteria Cappuccino</a>
+            <div class="preços">
+                <span class="normal">R$ 16,99</span>
+                <span class="lovers">R$ 15,99</span>
+            </div>
+            <button class="add-cart">Adicionar ao Carrinho</button>
         </div>
-         <button class="add-cart">Adicionar ao Carrinho</button>
-    </div>  
-    
-    <div class="produtos">
-        <div class="pi">
-            <img src="resources/biscoito (4).webp">
-            <i class="bx bx-heart"></i>
-        </div>
-        <a href="#">Wafer Biscoiteria<br> Pistache</a>
 
-        <div class="preços">
-            <span class="normal">R$ 19,29</span>
-            <span class="lovers">R$ 17,99</span>
+        <div class="produtos">
+            <div class="pi">
+                <img src="./resources/biscoito4.webp" alt="Biscoito 4">
+                <i class="bx bx-heart"></i>
+            </div>
+            <a href="#">Wafer Biscoiteria Pistache</a>
+            <div class="preços">
+                <span class="normal">R$ 19,29</span>
+                <span class="lovers">R$ 17,99</span>
+            </div>
+            <button class="add-cart">Adicionar ao Carrinho</button>
         </div>
-         <button class="add-cart">Adicionar ao Carrinho</button>
+
+    </div>
+</div>
+
+</body>
+</html>
